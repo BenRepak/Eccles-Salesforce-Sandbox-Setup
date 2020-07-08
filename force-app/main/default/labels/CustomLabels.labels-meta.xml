@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AccountId</fullName>
+        <categories>Org Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountId</shortDescription>
+        <value>0016C00000GLHLIQA5</value>
+    </labels>
+    <labels>
+        <fullName>Duplicate_Bot_Type</fullName>
+        <categories>System</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Duplicate Bot Type</shortDescription>
+        <value>Case</value>
+    </labels>
+    <labels>
+        <fullName>EB_Exception_Emails</fullName>
+        <categories>System Emails</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EB Exception Emails</shortDescription>
+        <value>salesforce@eccles.utah.edu</value>
+    </labels>
+    <labels>
+        <fullName>Executive_Education</fullName>
+        <categories>Org Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Executive Education</shortDescription>
+        <value>0016C00000GLHLIQA5</value>
+    </labels>
+    <labels>
+        <fullName>External_Relations</fullName>
+        <categories>Org Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>External Relations</shortDescription>
+        <value>0016C00000GZO4qQAH</value>
+    </labels>
+    <labels>
+        <fullName>HOLDER_APP_DELETE_BOOLEAN</fullName>
+        <categories>holder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HOLDER_APP_DELETE_BOOLEAN</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>HOLDER_AY_DELETE_BOOLEAN</fullName>
+        <categories>holder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HOLDER_AY_DELETE_BOOLEAN</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>HOLDER_EDU_DELETE_BOOLEAN</fullName>
+        <categories>Holder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HOLDER_EDU_DELETE_BOOLEAN</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>HOLDER_GRAD_CERT_DELETE_BOOLEAN</fullName>
+        <categories>holder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HOLDER_GRAD_CERT_DELETE_BOOLEAN</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>HOLDER_GRAD_DELETE_BOOLEAN</fullName>
+        <categories>HOLDER</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HOLDER_GRAD_DELETE_BOOLEAN</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>HOLDER_OBJECT2_DELETE_BOOLEAN</fullName>
+        <categories>holder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HOLDER_OBJECT2_DELETE_BOOLEAN</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>HOLDER_OBJECT_DELETE_BOOLEAN</fullName>
+        <categories>holder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HOLDER_OBJECT_DELETE_BOOLEAN</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>HOLDER_POSITION_DELETE_BOOLEAN</fullName>
+        <categories>holder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HOLDER_POSITION_DELETE_BOOLEAN</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>HOLDER_PS_DELETE_BOOLEAN</fullName>
+        <categories>holder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Holder PSoft Delete Boolean</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>HOLDER_RFI_DELETE_BOOLEAN</fullName>
+        <categories>holder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HOLDER_RFI_DELETE_BOOLEAN</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>HOLDER_STAND_TEST_DELETE_BOOLEAN</fullName>
+        <categories>holder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HOLDER_STAND_TEST_DELETE_BOOLEAN</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>HOLDER_STDTEST2_DELETE_BOOLEAN</fullName>
+        <categories>Holder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HOLDER_STDTEST2_DELETE_BOOLEAN</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>HOLDER_STD_TEST_DELETE_BOOLEAN</fullName>
+        <categories>holder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HOLDER_STD_TEST_DELETE_BOOLEAN</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>HOLDER_TEMP_CON_DELETE_BOOLEAN</fullName>
+        <categories>holder</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HOLDER_TEMP_CON_DELETE_BOOLEAN</shortDescription>
+        <value>FALSE</value>
+    </labels>
+    <labels>
+        <fullName>Holder_AY_Task_Creation_Boolean</fullName>
+        <categories>System</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Holder AY Task Creation Boolean (must be true to create tasks)</shortDescription>
+        <value>false</value>
+    </labels>
+    <labels>
+        <fullName>Policy_Institute</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Policy Institute</shortDescription>
+        <value>001d0000028z2GO</value>
+    </labels>
+    <labels>
+        <fullName>ProgramId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProgramId</shortDescription>
+        <value>a08d0000007XzLtAAK</value>
+    </labels>
+    <labels>
+        <fullName>Task_Owner_EMBA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sidney Barton</shortDescription>
+        <value>0050V0000075tdM</value>
+    </labels>
+    <labels>
+        <fullName>Task_Owner_Exec_Ed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ilaria Cominotti</shortDescription>
+        <value>0050V000006rQh2QAE</value>
+    </labels>
+    <labels>
+        <fullName>Task_Owner_FTMBA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Megan Wagner</shortDescription>
+        <value>0050V000006KB74QAG</value>
+    </labels>
+    <labels>
+        <fullName>Task_Owner_Multi</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sidney Barton</shortDescription>
+        <value>0050V0000075tdM</value>
+    </labels>
+    <labels>
+        <fullName>Task_Owner_OMBA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Brittany Warren</shortDescription>
+        <value>0050V000006XVqdQAG</value>
+    </labels>
+    <labels>
+        <fullName>Task_Owner_PMBA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Connor Nicol</shortDescription>
+        <value>0050V000006rLY0QAM</value>
+    </labels>
+    <labels>
+        <fullName>UAS_AFA_Liaison</fullName>
+        <categories>UAS Liaison</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UAS_Advanced_Financial_Analysis</shortDescription>
+        <value>0050V000006sHSPQA2</value>
+    </labels>
+    <labels>
+        <fullName>UAS_Accounting_Liaison</fullName>
+        <categories>UAS Liaison</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UAS_Accounting_Liaison</shortDescription>
+        <value>0050V0000088sQlQAI</value>
+    </labels>
+    <labels>
+        <fullName>UAS_Entrepreneurship_Liaison</fullName>
+        <categories>UAS Liaison</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UAS Entrepreneurship Liaison</shortDescription>
+        <value>0050V000006KnCb</value>
+    </labels>
+    <labels>
+        <fullName>UAS_Finance_Liaison</fullName>
+        <categories>UAS Liaison</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UAS Finance Liaison</shortDescription>
+        <value>0050V000006sHSPQA2</value>
+    </labels>
+    <labels>
+        <fullName>UAS_Information_Systems_Liaison</fullName>
+        <categories>UAS Liaison</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UAS Information Systems Liaison</shortDescription>
+        <value>005d0000003UfzJ</value>
+    </labels>
+    <labels>
+        <fullName>UAS_Management_Liaison</fullName>
+        <categories>UAS Liaison</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UAS Management Liaison</shortDescription>
+        <value>0050V000006rLLa</value>
+    </labels>
+    <labels>
+        <fullName>UAS_Marketing_Liaison</fullName>
+        <categories>UAS Liaison</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UAS Marketing Liaison</shortDescription>
+        <value>005d000000433Fh</value>
+    </labels>
+    <labels>
+        <fullName>UAS_Operations_Management_Liaison</fullName>
+        <categories>UAS Liaison</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UAS Operations Management Liaison</shortDescription>
+        <value>0050V000006tbIgQAI</value>
+    </labels>
+    <labels>
+        <fullName>UAS_QAMO_Liaison</fullName>
+        <categories>UAS Liaison</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UAS QAMO Liaison</shortDescription>
+        <value>0050V000006rOUL</value>
+    </labels>
+    <labels>
+        <fullName>URL_Instance</fullName>
+        <categories>System</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>URL - Instance</shortDescription>
+        <value>https://eccles.my.salesforce.com/</value>
+    </labels>
+    <labels>
+        <fullName>Undergrad</fullName>
+        <categories>Org Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Undergrad</shortDescription>
+        <value>0016C00000G6pv6QAB</value>
+    </labels>
+    <labels>
+        <fullName>email_System_Notifications</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>email - System Notifications</shortDescription>
+        <value>mark.benton@business.utah.edu</value>
+    </labels>
+</CustomLabels>
