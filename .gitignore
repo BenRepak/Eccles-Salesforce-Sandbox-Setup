@@ -30,3 +30,7 @@ Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
+
+# pycache
+__pycache__ 
+*.pyc

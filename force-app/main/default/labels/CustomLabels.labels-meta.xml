@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
         <fullName>AccountId</fullName>
@@ -6,7 +6,7 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>AccountId</shortDescription>
-        <value>0016C00000GLHLIQA5</value>
+        <value>00101000001y6TwAAI</value>
     </labels>
     <labels>
         <fullName>Duplicate_Bot_Type</fullName>
@@ -30,7 +30,7 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Executive Education</shortDescription>
-        <value>0016C00000GLHLIQA5</value>
+        <value>00101000001y6TwAAI</value>
     </labels>
     <labels>
         <fullName>External_Relations</fullName>
@@ -38,7 +38,7 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>External Relations</shortDescription>
-        <value>0016C00000GZO4qQAH</value>
+        <value>00101000001y6TvAAI</value>
     </labels>
     <labels>
         <fullName>HOLDER_APP_DELETE_BOOLEAN</fullName>
@@ -94,14 +94,6 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>HOLDER_OBJECT_DELETE_BOOLEAN</shortDescription>
-        <value>FALSE</value>
-    </labels>
-    <labels>
-        <fullName>HOLDER_POSITION_DELETE_BOOLEAN</fullName>
-        <categories>holder</categories>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>HOLDER_POSITION_DELETE_BOOLEAN</shortDescription>
         <value>FALSE</value>
     </labels>
     <labels>
@@ -178,15 +170,15 @@
         <fullName>Task_Owner_EMBA</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Sidney Barton</shortDescription>
-        <value>0050V0000075tdM</value>
+        <shortDescription>Chandler Cortez</shortDescription>
+        <value>0050V000007DbYKQA0</value>
     </labels>
     <labels>
         <fullName>Task_Owner_Exec_Ed</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Ilaria Cominotti</shortDescription>
-        <value>0050V000006rQh2QAE</value>
+        <shortDescription>Megan Grisley - skip per chad 20200403</shortDescription>
+        <value>FALSE</value>
     </labels>
     <labels>
         <fullName>Task_Owner_FTMBA</fullName>
@@ -199,8 +191,8 @@
         <fullName>Task_Owner_Multi</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Sidney Barton</shortDescription>
-        <value>0050V0000075tdM</value>
+        <shortDescription>Chandler Cortez</shortDescription>
+        <value>0050V000007DbYKQA0</value>
     </labels>
     <labels>
         <fullName>Task_Owner_OMBA</fullName>
@@ -222,7 +214,7 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>UAS_Advanced_Financial_Analysis</shortDescription>
-        <value>0050V000006sHSPQA2</value>
+        <value>0050V000007ef43QAA</value>
     </labels>
     <labels>
         <fullName>UAS_Accounting_Liaison</fullName>
@@ -246,7 +238,7 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>UAS Finance Liaison</shortDescription>
-        <value>0050V000006sHSPQA2</value>
+        <value>0050V000007ef43QAA</value>
     </labels>
     <labels>
         <fullName>UAS_Information_Systems_Liaison</fullName>
@@ -278,7 +270,7 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>UAS Operations Management Liaison</shortDescription>
-        <value>0050V000006tbIgQAI</value>
+        <value>0053o000007odtFAAQ</value>
     </labels>
     <labels>
         <fullName>UAS_QAMO_Liaison</fullName>
@@ -302,7 +294,7 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Undergrad</shortDescription>
-        <value>0016C00000G6pv6QAB</value>
+        <value>00101000001y6TuAAI</value>
     </labels>
     <labels>
         <fullName>email_System_Notifications</fullName>
