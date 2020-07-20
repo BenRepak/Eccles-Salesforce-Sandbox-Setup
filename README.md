@@ -4,8 +4,22 @@ Use this package to setup sandboxes in the Eccles Salesforce org.
 
 ## Prerequisites
 
--SFDX CLI is installed
--Python is installed
+- Microsoft VS Code installed
+- SFDX CLI is installed
+- Python is installed
+- Destination sandbox is authorized using `sfdx force:auth ....` command (more info https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_auth.htm)
+
+## Running Setup Scripts
+
+Running the Sandbox_Setup_Utility script will execute various commands to setup the sandbox (see Python Script Descriptions below)
+
+Execute using python2:
+
+- `python ./scripts/python/Sandbox_Setup_Utility.py`
+
+Execute using python3:
+
+- `python3 ./scripts/python/Sandbox_Setup_Utility.py`
 
 ## Python Script Descriptions
 
@@ -15,21 +29,25 @@ The following scripts are used to run commands in the SFDX CLI.
 
 Prompts admin to login to authorized SFDX org and then runs the following apex scripts:
 
--./scripts/apex/01-house_account_setup.apex
--./scripts/apex/02-admin_email_update.apex
+- ./scripts/apex/01-house_account_setup.apex
+- ./scripts/apex/02-admin_email_update.apex
 
 Pending implementation
 
--./scripts/apex/advisor_coach_lookup_setup.apex
--./scripts/apex/course_petitoin-app_setup.apex
--./scripts/apex/cps_events_setup.apex
--./scripts/apex/ee_open_enrollment_setup.apex
--./scripts/apex/undergrad_core_lookup_set.apex
+- ./scripts/apex/advisor_coach_lookup_setup.apex
+- ./scripts/apex/course_petitoin-app_setup.apex
+- ./scripts/apex/cps_events_setup.apex
+- ./scripts/apex/ee_open_enrollment_setup.apex
+- ./scripts/apex/undergrad_core_lookup_set.apex
 
 ### Custom_Label_Updater.py
 
--Updates Org Custom Labels with new Account Ids (Undergrad, External Relations, Executive Education, AccountId)
--Changes value in EB Exception Emails to "salesforce@eccles.utah.edu"
+- Updates Org Custom Labels with new Account Ids (Undergrad, External Relations, Executive Education, AccountId)
+- Changes value in EB Exception Emails to "salesforce@eccles.utah.edu"
+
+### sfdx_helper.py
+
+Contains some helper functions for interacting with the SFDX CLI used in other python scrtips.
 
 ## Apex Script Descriptions
 
