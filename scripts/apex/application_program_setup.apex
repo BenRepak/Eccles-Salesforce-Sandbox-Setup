@@ -18,7 +18,7 @@ if(currentOrg.isSandbox) {
     system.debug('in sandbox');
 
     // get or created account
-    acctg = getAccount('D. Eccles School of Business');
+    acct = getAccount('D. Eccles School of Business');
 
     // build contacts
     Contact frbsCon = buildContact('FR Business Scholar', 'Tester', 'salesforce@eccles.utah.edu'); 
@@ -46,7 +46,7 @@ public static Contact buildContact(String firstName, String lastName, String ema
     c.FirstName = firstname;
     c.lastName = lastname;
     c.Email = email;
-    c.birthdate = '1999-01-01';
+    c.birthdate = date.valueOf('1999-01-01');
     c.recordTypeId = CONTACT_RT_ID;
     c.accountId = acct.id;
     contacts.add(c);
