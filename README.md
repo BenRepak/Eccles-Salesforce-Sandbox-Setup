@@ -77,6 +77,12 @@ Creates sample data for advisor / coach lookup app. More info: https://sites.goo
 
 `sfdx force:apex:execute -f ./scripts/apex/advisor_coach_lookup_setup.apex -u <<sandbox>>`
 
+### application_program_setup.apex
+
+Creates sample contact and application program records for the cohort programs. Currently 1 contact per program and 10 applications per contact.
+
+`sfdx force:apex:execute -f ./scripts/apex/application_program_setup.apex -u <<sandbox>>`
+
 ### course_petition_app_setup.apex
 
 Creates sample data for course petition app. More info: https://sites.google.com/a/gcloud.utah.edu/salesforce-knowledge-base/admin-only/force-com-sites/undergrad

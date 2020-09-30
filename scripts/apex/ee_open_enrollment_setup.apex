@@ -57,8 +57,8 @@ public static void createGateway() {
     List<ChargentBase__Gateway__c> gateways = [SELECT Id FROM ChargentBase__Gateway__c WHERE name = 'Authorize.net Prod' and recordtypeid = :AUTH_GATE_RT_ID LIMIT 1];
     ChargentBase__Gateway__c g = new ChargentBase__Gateway__c();
     
-    g.ChargentBase__Merchant_ID__c = ''; // to be completed manually;
-    g.ChargentBase__Security_Key__c = ''; // to be completed manually
+    // g.ChargentBase__Merchant_ID__c = ''; // to be completed manually;
+    // g.ChargentBase__Security_Key__c = ''; // to be completed manually
     g.ChargentBase__Active__c = true;
     g.ChargentBase__Test_Mode__c = true;
     g.ChargentBase__Require_CCV__c = true;
