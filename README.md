@@ -102,9 +102,9 @@ Creates sample data for EE Open Enrollment app. More onfo: https://sites.google.
 `sfdx force:apex:execute -f ./scripts/apex/ee_open_enrollment_setup.apex -u <<sandbox>>`
 
 
-### leadership_development_plan_setup.apex
+### leadership_development_program_setup.apex
 
-Creates sample account and lrdprogram__c data for Leadership Development Plan page for BCS site
+Creates sample account and lrdprogram__c data for Leadership Development Program page for BCS site
 
 `sfdx force:apex:execute -f ./scripts/apex/leadership_development_plan_setup.apex -u <<sandbox>>`
 

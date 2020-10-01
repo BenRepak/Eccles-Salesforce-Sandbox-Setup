@@ -1,4 +1,4 @@
-public static List<LDRPrograms__c> plans = new List<LDRPrograms__c>();
+public static List<LDRPrograms__c> programs = new List<LDRPrograms__c>();
 public static List<Account> accounts = new List<Account>();
 
 public static Id COLRD_RT_ID = Schema.SObjectType.LDRPrograms__c.getRecordTypeInfosByDeveloperName().get('CO_LDR').getRecordTypeId();
@@ -25,14 +25,14 @@ if(currentOrg.isSandbox) {
     buildAccount('LDR Account 10', 'Denver', 'CO');
     createRecords(accounts);
 
-    // build plans
+    // build programs
     for(Account a : accounts) {
-        buildLeadershipDevPlan(a,false, true); // not expired, published
-        buildLeadershipDevPlan(a,true, false); // expired, not published
-        buildLeadershipDevPlan(a,false, false); // not expired, not published
-        buildLeadershipDevPlan(a,true, true); //  expired,  published
+        buildLeadershipDevProgram(a,false, true); // not expired, published
+        buildLeadershipDevProgram(a,true, false); // expired, not published
+        buildLeadershipDevProgram(a,false, false); // not expired, not published
+        buildLeadershipDevProgram(a,true, true); //  expired,  published
     }
-    createRecords(plans);
+    createRecords(programs);
 
 } else {
     system.debug('in production');
@@ -48,7 +48,7 @@ public static void buildAccount(String name, String city, String state){
     accounts.add(a);
 }
 
-public static void buildLeadershipDevPlan(Account a, boolean isExpired, boolean isPublished){
+public static void buildLeadershipDevProgram(Account a, boolean isExpired, boolean isPublished){
     String name = ' -- ';
 
     if(isExpired == true){
@@ -80,7 +80,7 @@ public static void buildLeadershipDevPlan(Account a, boolean isExpired, boolean 
     p.Expired__c = isExpired;
     p.publish_to_website__c = isPublished;
     
-    plans.add(p);
+    programs.add(p);
 }
 
 
