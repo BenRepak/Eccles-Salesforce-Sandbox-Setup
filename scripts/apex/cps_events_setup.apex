@@ -224,8 +224,8 @@ public static void createSessions() {
             s.degree__c = degrees.get('PMBA Degree').id;
         } else if(e.programs__c.startsWithIgnoreCase('Alumni Event')) {
             s.degree__c = degrees.get('Alumni').id;
-        } else if(e.programs__c.startsWithIgnoreCase('EE')) {
-            s.degree__c = degrees.get('Executive Education').id;
+        } else if(e.programs__c.startsWithIgnoreCase('Executive Education Programs')) {
+            s.degree__c = degrees.get('Executive Education ').id;
         } 
         s.show_on_the_website__c = true;
         s.Attendee_Special_Instructions__c = 'Special instructions for the attendee.';
