@@ -56,6 +56,7 @@ public static Contact buildContact(String firstName, String lastName, String ema
 
 public static void buildApplication(String applicationTypeId, String applicationStatus, Contact c){
     Application_Program__c app = new Application_Program__c();
+    app.ContactLU__c = c.id;
     app.recordTypeId = applicationTypeId;
     app.first_name__c = c.firstname;
     app.last_name__c = c.lastname;
