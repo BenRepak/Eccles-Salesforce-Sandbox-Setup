@@ -77,6 +77,10 @@ Creates sample data for advisor / coach lookup app. More info: https://sites.goo
 
 `sfdx force:apex:execute -f ./scripts/apex/advisor_coach_lookup_setup.apex -u <<sandbox>>`
 
+### appGradDataFactory.apex
+
+Creates sample contacts and Applicagion Graduate records. Currently creates 10 contacts, each with all SMP and MBA applications.
+
 ### application_program_setup.apex
 
 Creates sample contact and application program records for the cohort programs. Currently 1 contact per program and 10 applications per contact.
