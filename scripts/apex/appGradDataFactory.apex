@@ -22,7 +22,7 @@ public boolean isSubmittedSetter = false;
 
 
 public Map<String,Id> agRecordTypeMap = new Map<String,Id>{
-    'Accounting MAC' => AG_MHA_REC_TYPE_ID,
+    'Accounting MAC' => AG_MACC_REC_TYPE_ID,
     'Executive MBA' => AG_EMBA_REC_TYPE_ID,
     'Full-Time MBA' => AG_FTMBA_REC_TYPE_ID,
     'MBA Online' => AG_MBAO_REC_TYPE_ID,
